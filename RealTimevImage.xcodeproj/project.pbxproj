@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F926640159DCDA000D508B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F92663F159DCDA000D508B0 /* UIKit.framework */; };
+		2F926642159DCDA000D508B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F926641159DCDA000D508B0 /* Foundation.framework */; };
+		2F926644159DCDA000D508B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F926643159DCDA000D508B0 /* CoreGraphics.framework */; };
+		2F92664A159DCDA000D508B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F926648159DCDA000D508B0 /* InfoPlist.strings */; };
+		2F92664C159DCDA000D508B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F92664B159DCDA000D508B0 /* main.m */; };
+		2F926650159DCDA000D508B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F92664F159DCDA000D508B0 /* AppDelegate.m */; };
+		2F926653159DCDA000D508B0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F926651159DCDA000D508B0 /* MainStoryboard.storyboard */; };
+		2F926656159DCDA000D508B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F926655159DCDA000D508B0 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F92663B159DCDA000D508B0 /* RealTimevImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimevImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F92663F159DCDA000D508B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F926641159DCDA000D508B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F926643159DCDA000D508B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F926647159DCDA000D508B0 /* RealTimevImage-Info.plist */ = {isa = PBXFileReference; path = "RealTimevImage-Info.plist"; sourceTree = "<group>"; };
+		2F926649159DCDA000D508B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F92664B159DCDA000D508B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F92664D159DCDA000D508B0 /* RealTimevImage-Prefix.pch */ = {isa = PBXFileReference; path = "RealTimevImage-Prefix.pch"; sourceTree = "<group>"; };
+		2F92664E159DCDA000D508B0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F92664F159DCDA000D508B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F926652159DCDA000D508B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2F926654159DCDA000D508B0 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2F926655159DCDA000D508B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F926638159DCDA000D508B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F926640159DCDA000D508B0 /* UIKit.framework in Frameworks */,
+				2F926642159DCDA000D508B0 /* Foundation.framework in Frameworks */,
+				2F926644159DCDA000D508B0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F926630159DCD9F00D508B0 = {
+			isa = PBXGroup;
+			children = (
+				2F926645159DCDA000D508B0 /* RealTimevImage */,
+				2F92663E159DCDA000D508B0 /* Frameworks */,
+				2F92663C159DCDA000D508B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F92663C159DCDA000D508B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F92663B159DCDA000D508B0 /* RealTimevImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F92663E159DCDA000D508B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F92663F159DCDA000D508B0 /* UIKit.framework */,
+				2F926641159DCDA000D508B0 /* Foundation.framework */,
+				2F926643159DCDA000D508B0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F926645159DCDA000D508B0 /* RealTimevImage */ = {
+			isa = PBXGroup;
+			children = (
+				2F92664E159DCDA000D508B0 /* AppDelegate.h */,
+				2F92664F159DCDA000D508B0 /* AppDelegate.m */,
+				2F926651159DCDA000D508B0 /* MainStoryboard.storyboard */,
+				2F926654159DCDA000D508B0 /* ViewController.h */,
+				2F926655159DCDA000D508B0 /* ViewController.m */,
+				2F926646159DCDA000D508B0 /* Supporting Files */,
+			);
+			path = RealTimevImage;
+			sourceTree = "<group>";
+		};
+		2F926646159DCDA000D508B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F926647159DCDA000D508B0 /* RealTimevImage-Info.plist */,
+				2F926648159DCDA000D508B0 /* InfoPlist.strings */,
+				2F92664B159DCDA000D508B0 /* main.m */,
+				2F92664D159DCDA000D508B0 /* RealTimevImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F92663A159DCDA000D508B0 /* RealTimevImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F926659159DCDA000D508B0 /* Build configuration list for PBXNativeTarget "RealTimevImage" */;
+			buildPhases = (
+				2F926637159DCDA000D508B0 /* Sources */,
+				2F926638159DCDA000D508B0 /* Frameworks */,
+				2F926639159DCDA000D508B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTimevImage;
+			productName = RealTimevImage;
+			productReference = 2F92663B159DCDA000D508B0 /* RealTimevImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F926632159DCD9F00D508B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2F926635159DCD9F00D508B0 /* Build configuration list for PBXProject "RealTimevImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F926630159DCD9F00D508B0;
+			productRefGroup = 2F92663C159DCDA000D508B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F92663A159DCDA000D508B0 /* RealTimevImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F926639159DCDA000D508B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F92664A159DCDA000D508B0 /* InfoPlist.strings in Resources */,
+				2F926653159DCDA000D508B0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F926637159DCDA000D508B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F92664C159DCDA000D508B0 /* main.m in Sources */,
+				2F926650159DCDA000D508B0 /* AppDelegate.m in Sources */,
+				2F926656159DCDA000D508B0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F926648159DCDA000D508B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F926649159DCDA000D508B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F926651159DCDA000D508B0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F926652159DCDA000D508B0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F926657159DCDA000D508B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F926658159DCDA000D508B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F92665A159DCDA000D508B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealTimevImage/RealTimevImage-Prefix.pch";
+				INFOPLIST_FILE = "RealTimevImage/RealTimevImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F92665B159DCDA000D508B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealTimevImage/RealTimevImage-Prefix.pch";
+				INFOPLIST_FILE = "RealTimevImage/RealTimevImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F926635159DCD9F00D508B0 /* Build configuration list for PBXProject "RealTimevImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F926657159DCDA000D508B0 /* Debug */,
+				2F926658159DCDA000D508B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F926659159DCDA000D508B0 /* Build configuration list for PBXNativeTarget "RealTimevImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F92665A159DCDA000D508B0 /* Debug */,
+				2F92665B159DCDA000D508B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F926632159DCD9F00D508B0 /* Project object */;
+}
